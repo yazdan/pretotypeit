@@ -1,0 +1,96 @@
+\usepackage[margin=2.5cm]{geometry}
+
+%new fields
+\def\university#1{\gdef\@university{#1}}
+\def\department#1{\gdef\@department{#1}}
+\def\degree#1{\gdef\@degree{#1}}
+\def\course#1{\gdef\@course{#1}}
+\def\thesisdate#1{\gdef\@thesisdate{#1}}
+\def\supervisor#1{\gdef\@supervisor{#1}}
+\def\advisor#1{\gdef\@advisor{#1}}
+\def\field#1{\gdef\@field{#1}}
+\def\subfield#1{\gdef\@subfield{#1}}
+
+%new commands
+%\newcommand{\مرجع}[1]{\cite{#1}}
+\newcommand{\ان}[1]{\lr{#1}}
+
+% translations
+\def\by{توسط}
+\def\universityof{دانشگاه}
+\def\departmentof{دانشکده‌ی}
+\def\seminarof{سمینار درس}
+\def\infieldof{در رشته‌ی}
+\def\insubfieldof{گرایش}
+\def\undersupervision{استاد درس }
+%\def\underadviseof{استاد مشاور سمینار}
+\def\bibname{مراجع}
+
+% Styles
+\setlength{\parindent}{0.7cm}
+\linespread{1.45}
+
+\renewcommand{\large}{\@setfontsize{\large}{14pt}{16.8pt}}
+\renewcommand{\Large}{\@setfontsize{\Large}{14pt}{16.8pt}}
+\renewcommand{\LARGE}{\@setfontsize{\LARGE}{14pt}{16.8pt}}
+\renewcommand{\huge}{\@setfontsize{\huge}{16pt}{21.2pt}}
+\renewcommand{\Huge}{\@setfontsize{\Huge}{14pt}{21.2pt}}
+\renewcommand{\footnotesize}{\@setfontsize{\footnotesize}{9pt}{10.8pt}}
+\newcommand{\bibfont}{\footnotesize}
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+%                                   {3.5ex \@plus 1ex \@minus .2ex}%
+                                   {1.6\baselineskip \@plus 0.2\baselineskip \@minus .1\baselineskip}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\normalfont\normalsize\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                   {1.6\baselineskip \@plus 0.2\baselineskip \@minus .1\baselineskip}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                   {1.6\baselineskip \@plus 0.2\baselineskip \@minus .1\baselineskip}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\small\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\parindent}%
+                                   {1.6\baselineskip \@plus 0.2\baselineskip \@minus .1\baselineskip}%
+                                    {-1em}%
+                                    {\normalfont\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+                                   {1.6\baselineskip \@plus 0.2\baselineskip \@minus .1\baselineskip}%
+                                       {-1em}%
+                                      {\normalfont\normalsize\bfseries}}
+
+
+% Title page
+\def\maketitle{\begin{titlepage}
+\centering
+{\includegraphics{logo}}
+\vskip 1cm
+{\large\bfseries\departmentof\space\@department}
+\par
+{\large\bfseries\universityof\space\@university}
+\vskip 1cm
+%{\large\bfseries\seminarof\space\@degree\par
+%\infieldof\space\@field\insubfieldof\space\@subfield}
+{\large\bfseries\seminarof\par
+\@course}
+\vskip 1.5cm
+{\Huge\bfseries \@title}\par
+\vskip 1cm
+{\large\bfseries \by:}\par
+{\Large\bfseries \@author}
+\vskip 1cm
+{\large
+  \bfseries \undersupervision:\par
+\Large \@supervisor}
+\par
+\vskip 1cm
+%{\large
+%  \bfseries \underadviseof:\par
+%\Large \@advisor}
+%\par
+%\vskip 1cm
+{\large\bfseries \@thesisdate}
+\vfill
+\end{titlepage}%
+}

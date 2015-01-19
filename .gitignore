@@ -3,5 +3,7 @@
 *.out
 *.synctex
 *.bak
+*.idx
+*.toc
 booksite/content/*
 booksite/public/*

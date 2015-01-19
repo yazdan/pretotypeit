@@ -1,3 +1,8 @@
-baseurl = "http://yourSiteHere"
-languageCode = "en-us"
-title = "my new hugo site"
+MetaDataFormat = "yaml"
+title = "Pretotyping"
+
+[indexes]
+  tag = "tags"
+  group = "groups"
+
+

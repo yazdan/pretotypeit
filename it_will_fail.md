@@ -2,7 +2,8 @@
 draft: true
 title: "شکست خواهد خورد"
 date: 2015-02-07
-next: /it-will-fail
+next: /pretotype_it
+prev: /pretotyping
 menu:
   main:
 weight: 50

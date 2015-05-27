@@ -2,7 +2,8 @@
 draft: true
 title: "پیش نمونه سازی"
 date: 2015-01-30
-next: /pretotyping
+next: /it_will_fail
+prev: /the_right_it
 menu:
   main:
 weight: 40

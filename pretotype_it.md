@@ -2,7 +2,8 @@
 draft: false
 title: "پیش‌نمون‌اش را بسازید"
 date: 2015-02-07
-next: /pretotype_it
+next: /now_go_make_it
+prev: /it_will_fail
 menu:
   main:
 weight: 60

@@ -2,7 +2,8 @@
 draft: true
 title: "آن چیز درست"
 date: 2014-05-20
-next: /the-right-it
+next: /pretotyping
+prev: /introduction
 menu:
   main:
 weight: 30

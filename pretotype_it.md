@@ -2,7 +2,7 @@
 draft: false
 title: "پیش‌نمون‌اش را بسازید"
 date: 2015-02-07
-next: /now_go_make_it
+next: /test_it
 prev: /it_will_fail
 menu:
   main:

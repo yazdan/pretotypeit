@@ -1,7 +1,7 @@
 #/usr/bin/sh
 for i in *.md
 do
-	pandoc -f markdown --latex-engine=xelatex -R -i "$i" -o "./latex/${i%%.*}.tex"
+	pandoc -f markdown+pipe_tables+simple_tables+table_captions --latex-engine=xelatex -R -i "$i" -o "./latex/${i%%.*}.tex"
 	FULL_PATH=$(readlink -f $i)
 	ln -s "$FULL_PATH" "./booksite/content/"
 done

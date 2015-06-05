@@ -2,7 +2,7 @@
 draft: false
 title: "آنرا تست کنید"
 date: 2015-02-07
-next: /now_go_make_it
+next: /put_it_all_together
 prev: /pretotype_it
 menu:
   main:

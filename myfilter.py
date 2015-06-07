@@ -5,7 +5,7 @@ Pandoc filter to convert all level 2+ headers to paragraphs with
 emphasized text.
 """
 
-from pandocfilters import toJSONFilter, Str, RawInline
+from pandocfilters import toJSONFilter, Str
 import locale
 import logging
 import os
@@ -16,10 +16,7 @@ def configure_logging():
 	format_string = "%(name)s: [%(levelname)s] %(message)s"
 	logging.basicConfig(format=format_string, level=logging.DEBUG)
 	log.debug("Debug logging enabled.")
-
-def latex(s):
-	return RawInline('latex', s)
-
+	
 def behead(key, value, format, meta):
 	
 	log.info('key = ')
@@ -34,8 +31,7 @@ def behead(key, value, format, meta):
 		if key == 'Str':
 			try:
 				value.encode('ascii')
-				
-				#return [latex('\\lr{') + value + [latex('}')]
+				return Str('\lr{'+value+'}')
 			except UnicodeEncodeError:
 				log.info( "string is UTF-8")
 			

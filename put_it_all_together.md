@@ -6,7 +6,7 @@ next: /now_go_make_it
 prev: /test_it
 menu:
   main:
-weight: 70
+weight: 80
 ---
 
 

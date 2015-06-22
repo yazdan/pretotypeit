@@ -60,20 +60,20 @@ function initializeJS() {
     jQuery('.toggle-nav').click(function () {
         if (jQuery('#sidebar > ul').is(":visible") === true) {
             jQuery('#main-content').css({
-                'margin-left': '0px'
+                'margin-right': '0px'
             });
             jQuery('#sidebar').css({
-                'margin-left': '-180px'
+                'margin-right': '-180px'
             });
             jQuery('#sidebar > ul').hide();
             jQuery("#container").addClass("sidebar-closed");
         } else {
             jQuery('#main-content').css({
-                'margin-left': '180px'
+                'margin-right': '180px'
             });
             jQuery('#sidebar > ul').show();
             jQuery('#sidebar').css({
-                'margin-left': '0'
+                'margin-right': '0'
             });
             jQuery("#container").removeClass("sidebar-closed");
         }

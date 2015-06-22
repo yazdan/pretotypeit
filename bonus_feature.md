@@ -6,7 +6,7 @@ next: /pretotyping_manifesto
 prev: /now_go_make_it
 menu:
   main:
-weight: 70
+weight: 100
 ---
 
 # آیا این کتاب یک چیز درست است؟

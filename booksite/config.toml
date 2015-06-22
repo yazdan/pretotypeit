@@ -1,8 +1,8 @@
 MetaDataFormat = "yaml"
 title = "Pretotyping"
+disqusShortname = "pretotypeit"
 
 [indexes]
   tag = "tags"
   group = "groups"
-
 

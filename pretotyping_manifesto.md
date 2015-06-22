@@ -6,7 +6,7 @@ next: /about_the_author
 prev: /bonus_features
 menu:
   main:
-weight: 70
+weight: 110
 ---
 
 مطمئن شوید که در حال ساخت یک **چیز** _درست_ هستد قبل از اینکه آن **چیز** را بصورت درستی بسازید.

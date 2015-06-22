@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "پیش نمونه سازی"
 date: 2015-01-30
 next: /it_will_fail

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "شکست خواهد خورد"
 date: 2015-02-07
 next: /pretotype_it

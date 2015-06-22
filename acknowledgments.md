@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "درباره نویسنده"
+title: "تقدیر و تشکر"
 date: 2015-02-07
 next: /follow_pretotyping
 prev: /about_the_author

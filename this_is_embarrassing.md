@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "این شرم آوره"
 date: 2014-05-20
 next: /introduction

@@ -1,6 +1,7 @@
 MetaDataFormat = "yaml"
 title = "Pretotyping"
 disqusShortname = "pretotypeit"
+baseurl = "pretotypeit.ir"
 
 [indexes]
   tag = "tags"

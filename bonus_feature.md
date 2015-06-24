@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "همه چیز را سرهم کنید"
+title: "ویژگی اضافه"
 date: 2015-02-07
 next: /pretotyping_manifesto
 prev: /now_go_make_it

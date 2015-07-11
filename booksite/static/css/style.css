@@ -1,6 +1,7 @@
 /* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(../fonts/iransansstyle.css);
 
 /* ******************************
  For the github btn
@@ -99,7 +100,7 @@ pre code {
 body {
     color: #353b44;
     background: #edece4;
-    font-family: 'Droid Arabic Naskh','Lato', sans-serif;
+    font-family: 'IRANSans-web','Lato', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
     font-size:16px !important;    

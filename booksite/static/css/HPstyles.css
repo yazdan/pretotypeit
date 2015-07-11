@@ -1,5 +1,6 @@
 /* Global Styles */
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(../fonts/iransansstyle.css);
 
 html,
 body {
@@ -9,12 +10,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Droid Arabic Naskh','Cabin', "Helvetica Neue", "Helvetica", sans-serif;
+    font-family: 'IRANSans-web','Cabin', "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 body {
 
-    font-family: 'Droid Arabic Naskh','Arbutus Slab', "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-family: 'IRANSans-web','Arbutus Slab', "Helvetica Neue", "Helvetica", sans-serif !important;
     line-height: 1.6;
 }
 

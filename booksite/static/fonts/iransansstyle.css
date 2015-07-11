@@ -1,0 +1,116 @@
+@charset "utf-8";
+body {
+	background-color: #E1DBEE;
+}
+
+@font-face {
+	font-family: 'IRANSans-web';
+        src: url('IRANSans-Bold-web.eot');
+ 
+	src: url('IRANSans-Bold-web.eot?#iefix') format('eot'),  /* IE6–8 */
+url('IRANSans-Bold-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('IRANSans-Bold-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('IRANSans-Bold-web.ttf') format('ttf');  
+	font-weight: bold;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+        src: url('IRANSans-Medium-web.eot');
+ 
+	src: url('IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6–8 */
+url('IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('IRANSans-Medium-web.ttf') format('ttf');  
+	font-weight: 500;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+        src: url('IRANSans-UltraLight-web.eot');
+ 
+	src: url('IRANSans-UltraLight-web.eot?#iefix') format('eot'),  /* IE6–8 */
+url('IRANSans-UltraLight-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('IRANSans-UltraLight-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('IRANSans-UltraLight-web.ttf') format('ttf');  
+	font-weight: 200;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+        src: url('IRANSans-Light-web.eot');
+ 
+	src: url('IRANSans-Light-web.eot?#iefix') format('eot'),  /* IE6–8 */
+url('IRANSans-Light-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('IRANSans-Light-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('IRANSans-Light-web.ttf') format('ttf');  
+	font-weight: 300;
+}
+
+
+@font-face {
+	font-family: 'IRANSans-web';
+        src: url('IRANSans-web.eot');
+ 
+	src: url('IRANSans-web.eot?#iefix') format('eot'),  /* IE6–8 */
+url('IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url('IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('IRANSans-web.ttf') format('ttf');  
+	font-weight: normal;
+}
+
+
+.IRANSansBold {
+	font-family: IRANSans-web;
+	color: #000;
+    margin-right: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-weight: bold;
+}
+
+.IRANSansMedium {
+	font-family: IRANSans-web;
+	color: #000;
+    margin-right: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-weight: 500;
+}
+
+
+.IRANSansUltraLight {
+	font-family: IRANSans-web;
+	color: #000;
+    margin-right: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-weight: 200;
+}
+
+.IRANSansLight {
+	font-family: IRANSans-web;
+	color: #000;
+    margin-right: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-weight: 300;
+}
+
+.IRANSans {
+	font-family: IRANSans-web;
+	color: #000;
+    margin-right: 50px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	font-weight: normal;
+}
+

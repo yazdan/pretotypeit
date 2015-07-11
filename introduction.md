@@ -3,7 +3,7 @@ draft: false
 title: "مقدمه"
 date: 2014-05-20
 prev: /this_is_embarrassing
-next: /the_right_it
+next: /translator_introduction
 menu:
   main:
 weight: 20

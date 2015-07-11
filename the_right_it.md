@@ -3,7 +3,7 @@ draft: false
 title: "آن چیز درست"
 date: 2014-05-20
 next: /pretotyping
-prev: /introduction
+prev: /translator_introduction
 menu:
   main:
 weight: 30

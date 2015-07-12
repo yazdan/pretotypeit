@@ -1,0 +1,5 @@
+Persian translation of "Pretotype It" book
+
+You need xelatex and xepersian to generate pdf file
+You need hugo 0.12 to compile md files to static HTML site
+

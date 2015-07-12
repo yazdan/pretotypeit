@@ -7,3 +7,5 @@
 *.toc
 booksite/content/*
 booksite/public/*
+*IRANSans*
+*bfg-report*

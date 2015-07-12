@@ -1,0 +1,3 @@
+[submodule "pandoc-xepersian"]
+	path = pandoc-xepersian
+	url = https://github.com/yazdan/pandoc-xepersian.git

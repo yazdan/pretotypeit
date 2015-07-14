@@ -1,0 +1,8 @@
+---
+title: پیش‌نمونه سازی
+author: آلبرتو ساویا
+rights: © 2007 آلبرتو ساویا
+language: fa-IR
+page-progression-direction: rtl
+---
+

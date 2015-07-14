@@ -5,35 +5,35 @@ body {
 
 @font-face {
 	font-family: 'IRANSans-web';
-        src: url('IRANSans-Bold-web.ttf');  
+        src: url('IRANSans-Bold-web.woff') format('woff');  
 	font-weight: bold;
 }
 
 
 @font-face {
 	font-family: 'IRANSans-web';
-        src: url('IRANSans-Medium-web.ttf');  
+        src: url('IRANSans-Medium-web.woff') format('woff');  
 	font-weight: 500;
 }
 
 
 @font-face {
 	font-family: 'IRANSans-web';
-        src: url('IRANSans-UltraLight-web.ttf');  
+        src: url('IRANSans-UltraLight-web.woff') format('woff');  
 	font-weight: 200;
 }
 
 
 @font-face {
 	font-family: 'IRANSans-web';
-        src: url('IRANSans-Light-web.ttf');  
+        src: url('IRANSans-Light-web.woff') format('woff');  
 	font-weight: 300;
 }
 
 
 @font-face {
 	font-family: 'IRANSans-web';
-        src: url('IRANSans-web.ttf');  
+        src: url('IRANSans-web.woff') format('woff');  
 	font-weight: normal;
 }
 
